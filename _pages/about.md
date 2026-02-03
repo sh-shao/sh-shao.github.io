@@ -7,8 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Computer Science at the University of Connecticut (UConn).
-
+I am a PhD student in Computer Science at the [University of Connecticut (UConn)](https://www.uconn.edu), advised by [Prof. Tingting Yu](https://tingting-yu.scholar.uconn.edu/).
 My research focuses on **concurrent bug localization**, **static analysis**, and **large language model–based software engineering**.  
 I am particularly interested in developing practical and explainable techniques that bridge **bug reports** and **source code** for understanding and locating concurrency bugs in large-scale systems.
 
