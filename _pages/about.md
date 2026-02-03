@@ -13,9 +13,10 @@ I am particularly interested in developing practical and explainable techniques 
 
 ---
 
-## Recent Publications
+## Selected Publications
 
 {% assign my_name = "Shuai Shao" %}
+{% assign highlighted_name = "<strong>" | append: my_name | append: "</strong>" %}
 {% assign pubs = site.publications | sort: "date" | reverse %}
 
 <ol>
@@ -31,7 +32,7 @@ I am particularly interested in developing practical and explainable techniques 
   {% endif %}
   <li>
     <strong>{{ p.title }}</strong>.<br/>
-    {{ p.authors | replace: my_name, "<strong>" | append: my_name | append: "</strong>" }}.<br/>
+    {{ p.authors | replace: my_name, highlighted_name }}.<br/>
     <em>{{ p.venue }}</em>, {{ p.year }}.
   </li>
   {% assign count = count | plus: 1 %}
@@ -47,7 +48,7 @@ I am particularly interested in developing practical and explainable techniques 
   {% endunless %}
   <li>
     <strong>{{ p.title }}</strong>.<br/>
-    {{ p.authors | replace: my_name, "<strong>" | append: my_name | append: "</strong>" }}.<br/>
+    {{ p.authors | replace: my_name, highlighted_name }}.<br/>
     <em>{{ p.venue }}</em>, {{ p.year }}.
   </li>
   {% assign count = count | plus: 1 %}
@@ -59,7 +60,7 @@ I am particularly interested in developing practical and explainable techniques 
   <a href="/publications-cv/">Full publication list</a>
 </p>
 
---
+---
 
 ## Work Experience
 
