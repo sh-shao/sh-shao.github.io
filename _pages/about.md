@@ -9,7 +9,7 @@ redirect_from:
 
 I am a PhD student in Computer Science at the [University of Connecticut (UConn)](https://www.uconn.edu), advised by [Prof. Tingting Yu](https://tingting-yu.scholar.uconn.edu/).
 My research interests include **concurrent programming**, **static analysis**, **software refactoring**, and **LLMs for software engineering**. 
-I am particularly interested in developing **practical and explainable techniques** that bridge **software artifacts** (e.g., bug reports and source code) to understand, localize, and improve issues in large-scale systems.
+My current research focuses on applying large language models to automated software engineering, particularly fault localization and program repair in concurrent programs.
 ---
 
 ## Selected Publications
