@@ -14,15 +14,58 @@ I am particularly interested in developing practical and explainable techniques 
 
 ---
 
-## Publications
+## Recent Publications
 
-Please see the [Publications](/publications/) page for a complete list of my publications and preprints.
+{% assign my_name = "Shuai Shao" %}
+{% assign pubs = site.publications | sort: "date" | reverse %}
 
----
+<ol>
 
-## Teaching Assistant
+{%- comment -%} Published / Accepted {%- endcomment -%}
+{% assign count = 0 %}
+{% for p in pubs %}
+  {% if p.venue contains "arXiv" %}
+    {% continue %}
+  {% endif %}
+  {% if count >= 10 %}
+    {% break %}
+  {% endif %}
+  <li>
+    <strong>{{ p.title }}</strong>.<br/>
+    {{ p.authors | replace: my_name, "<strong>" | append: my_name | append: "</strong>" }}.<br/>
+    <em>{{ p.venue }}</em>, {{ p.year }}.
+  </li>
+  {% assign count = count | plus: 1 %}
+{% endfor %}
 
-I have served as a Teaching Assistant for the following courses at the University of Connecticut:
+{%- comment -%} Fill with arXiv if < 10 {%- endcomment -%}
+{% for p in pubs %}
+  {% if count >= 10 %}
+    {% break %}
+  {% endif %}
+  {% unless p.venue contains "arXiv" %}
+    {% continue %}
+  {% endunless %}
+  <li>
+    <strong>{{ p.title }}</strong>.<br/>
+    {{ p.authors | replace: my_name, "<strong>" | append: my_name | append: "</strong>" }}.<br/>
+    <em>{{ p.venue }}</em>, {{ p.year }}.
+  </li>
+  {% assign count = count | plus: 1 %}
+{% endfor %}
 
-- *Course Name 1* — Brief description (optional)
-- *Course Name 2* — Brief description (optional)
+</ol>
+
+<p>
+  <a href="/publications-cv/">Full publication list</a>
+</p>
+
+--
+
+## Work Experience
+
+- **Spring 2026**: Teaching Assistant  
+  *CSE 3400 / CSE 5850 — Introduction to Cryptography and Cybersecurity*
+
+- **Fall 2025**: Teaching Assistant  
+  *CSE 3400 / CSE 5850 — Introduction to Cryptography and Cybersecurity*
