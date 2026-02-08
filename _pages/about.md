@@ -62,7 +62,7 @@ My current research focuses on applying large language models to automated softw
 
 ---
 
-## Work Experience
+## Teaching Experience
 
 - **Spring 2026**: Teaching Assistant  
   *CSE 3400 / CSE 5850 — Introduction to Cryptography and Cybersecurity*
