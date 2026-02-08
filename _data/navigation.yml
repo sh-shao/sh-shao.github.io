@@ -24,7 +24,7 @@ main:
   #   url: /year-archive/
     
   - title: "CV"
-    url: /cv-json/
+    url: ../files/slide2.pdf
     
   # - title: "CV"
   #   url: /cv-json/
