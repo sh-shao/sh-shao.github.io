@@ -69,3 +69,8 @@ My current research focuses on applying large language models to automated softw
 
 - **Fall 2025**: Teaching Assistant  
   *CSE 3400 / CSE 5850 — Introduction to Cryptography and Cybersecurity*
+
+---
+
+## Service
+
