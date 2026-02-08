@@ -74,3 +74,5 @@ My current research focuses on applying large language models to automated softw
 
 ## Service
 
+- Reviewer, Journal of Software: Evolution and Process
+- External Reviewer, ICPE 2025
