@@ -11,7 +11,7 @@ redirect_from:
 
 <div style="margin-top: 2em;">
   <iframe 
-    src="{{ base_path }}/files/cv.pdf"
+    src="{{ base_path }}/files/slide2.pdf"
     width="100%"
     height="1000px"
     style="border: none;">
