@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Shuai Shao"
 title_separator          : "-"
 name                     : &name "Shuai Shao"
-description              : &description "PhD student in Computer Science at the University of Connecticut (UConn). Research interests include concurrent bug localization, static analysis, and LLM-based software engineering."
+description              : &description "PhD student in Computer Science at the University of Connecticut. Research interests include concurrent bug localization, static analysis, and LLM-based software engineering."
 url                      : https://sh-shao.github.io
 baseurl                  : ""
 repository               : "sh-shao/sh-shao.github.io"
